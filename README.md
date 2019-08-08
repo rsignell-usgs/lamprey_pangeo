@@ -18,7 +18,7 @@ To use the example, open the example notebook and follow along and run the scrip
 ## Required user skill set
 
 **Coding:** This example requires the a user to understand how to use Jupyter Notebooks. 
-For users who are unfamiliar, many online examples exist. 
+For users who are unfamiliar, many online tutorials exist. 
 
 **Statistics:** This example assumes the user is familiar with basic regression and boxplots. 
 
