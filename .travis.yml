@@ -1,0 +1,9 @@
+sudo: required
+services:
+- docker
+before_install:
+- docker build --build-arg GITHUB_PAT=$GITHUB_PAT -t binder .
+script:
+- docker run -ti binder R --version
+- docker run -ti binder jupyter --version
+- docker run -ti binder python3 --version
