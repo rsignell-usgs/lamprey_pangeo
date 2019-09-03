@@ -1,7 +1,16 @@
 # Demonstration of Danger for ecosystem data
 
-The purpose of this file is to demonstrate how Pangeo may be used with Ecosystem Mission Area data.
+The purpose of this file is to demonstrate how Pangeo may be used with USGS Ecosystem Mission Area (EMA) data and other ecological datasets. 
 The example also highlights needs for approaches such as Pangeo to be more widely adapted by USGS scientists, especially those in EMA. 
+
+## Pangeo Binder
+
+The easiest way to use this demo is to use the Pangeo Binder.
+To do so, click on this link:
+
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rerickson-usgs/lamprey_pangeo/master)
+
+Otherwise, see the next section. 
 
 ## Overview of files and use
 
@@ -11,24 +20,20 @@ The data comes from [ScienceBase](https://www.sciencebase.gov/) and was part of 
 This repository contains the follow files:
 
 - `README.md`: This file
-- `Example_integrated_data.ipynb`: The example Jupyter Notebook
+- `LICENCE.md`: A USGS standard license in a markdown file. 
+- `Example_integrated_data.ipynb`: The example Jupyter Notebook with Python code
+- `Example_integrated_data_R.ipynb`: The example Jupyter Notebook with R code. 
+- `environment-lamprey.yml`: A Conda Environment file.   
 
-To use the example, open the example notebook and follow along and run the script.
+To use the examples, open the example notebook and follow along and run the script.
+This example is also setup as a Binder. 
 
 ## Required user skill set
 
 **Coding:** This example requires the a user to understand how to use Jupyter Notebooks. 
 For users who are unfamiliar, many online tutorials exist. 
 
-**Statistics:** This example assumes the user is familiar with basic regression and boxplots. 
-
-
-## Limitations and questions for Rich Signell
-
-- `code.usgs.gov` vs `code.chs.usgs.gov`
-- Getting large datasets to cloud? e.g., genomics data
-- R Kernel for Jupyter notebook
-- Can we use our own custom Docker image to run our Jupyter notebook? 
+**Statistics:** This example assumes the user is familiar with basic regression, liner mixed-effect regressions (lmers), and boxplots. 
 
 ## Contact
 
