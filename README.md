@@ -35,6 +35,15 @@ For users who are unfamiliar, many online tutorials exist.
 
 **Statistics:** This example assumes the user is familiar with basic regression, liner mixed-effect regressions (lmers), and boxplots. 
 
+## Advanced tips
+
+Building an R Environment did not work by default with the binders. 
+This was because the default version of R was too old to install devtools.
+Instead, I had to follow the directions to create a `dockerfile`.
+
+jupyter-repo2docker --no-build --debug https://github.com/norvig/pytudes
+
+
 ## Contact
 
 Richard A. Erickson (rerickson@usgs.gov)
