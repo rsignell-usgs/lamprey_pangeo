@@ -1,0 +1,33 @@
+name: IOOS-R
+channels:
+  - conda-forge
+  - defaults
+  - cran
+dependencies:
+  - python
+  - ioos-tools
+  - jupyter
+  - matplotlib
+  - pandas
+  - numpy
+  - statsmodels
+  # R packages.
+  - rpy2
+  - r-base
+  - r-tidyverse
+  - r-lmerTest
+  - r-dt
+  - r-finch
+  - r-ggfortify
+  - r-gsw
+  - r-httr
+  - r-irkernel
+  - r-lubridate
+  - r-ncdf4
+  - r-oce
+  - r-rcolorbrewer
+  - r-rerddap
+  - r-robis
+  - r-sp
+  - r-xtractomatic
+  - r-xts
