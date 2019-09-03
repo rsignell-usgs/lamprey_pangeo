@@ -15,6 +15,8 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
+RUN install2.r -e --repo http://cran.wustl.edu/ lme4
+
 ## Become normal user again
 USER ${NB_USER}
 
