@@ -1,4 +1,4 @@
-# Demonstration of Danger for ecosystem data
+# Demonstration of Jupyter for ecosystem data
 
 The purpose of this file is to demonstrate how Pangeo may be used with USGS Ecosystem Mission Area (EMA) data and other ecological datasets. 
 The example also highlights needs for approaches such as Pangeo to be more widely adapted by USGS scientists, especially those in EMA. 
