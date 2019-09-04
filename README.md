@@ -45,7 +45,8 @@ For users who are unfamiliar, many online tutorials exist.
 ## Advanced tips
 
 Building an R Environment did not work by default with the binders. 
-I was require
+I was require to use a docker file. 
+This maybe built locally using [repo2docker](https://github.com/jupyter/repo2docker).
 
     jupyter-repo2docker ./
 
