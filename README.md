@@ -15,7 +15,7 @@ To do so, click on this link:
 
 [![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rerickson-usgs/lamprey_pangeo/master?filepath=Example_integrated_data_R.ipynb)
 
-Otherwise, see the next section. 
+To run the files locally, see the next section. 
 
 ## Overview of files and use
 
@@ -29,6 +29,8 @@ This repository contains the follow files:
 - `Example_integrated_data.ipynb`: The example Jupyter Notebook with Python code
 - `Example_integrated_data_R.ipynb`: The example Jupyter Notebook with R code. 
 - `environment-lamprey.yml`: A Conda Environment file.   
+- `.travis.yml`: Another environment file. 
+- `Dockerfile`: The Dockerfile for building the environment. 
 
 To use the examples, open the example notebook and follow along and run the script.
 This example is also setup as a Binder. 
@@ -43,10 +45,9 @@ For users who are unfamiliar, many online tutorials exist.
 ## Advanced tips
 
 Building an R Environment did not work by default with the binders. 
-This was because the default version of R was too old to install devtools.
-Instead, I had to follow the directions to create a `dockerfile`.
+I was require
 
-    jupyter-repo2docker --no-build --debug https://github.com/norvig/pytudes
+    jupyter-repo2docker ./
 
 
 ## Contact
