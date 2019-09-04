@@ -8,7 +8,12 @@ The example also highlights needs for approaches such as Pangeo to be more widel
 The easiest way to use this demo is to use the Pangeo Binder.
 To do so, click on this link:
 
-[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rerickson-usgs/lamprey_pangeo/master)
+
+**Note, the AWS pangeo binder does not work (bottom), but the mybinder.org (top) works:**
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rerickson-usgs/lamprey_pangeo/master?filepath=Example_integrated_data_R.ipynb)
+
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rerickson-usgs/lamprey_pangeo/master?filepath=Example_integrated_data_R.ipynb)
 
 Otherwise, see the next section. 
 

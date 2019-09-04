@@ -15,10 +15,25 @@ COPY . ${HOME}
 ## COPY binder ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 
+## Install a new version of python 
+RUN apt-get update && \
+    apt-get -y install python3-venv python3-dev && \
+    apt-get purge && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+
+
 RUN install2.r -e --repo http://cran.wustl.edu/ lme4
 
 ## Become normal user again
 USER ${NB_USER}
 
+RUN python3 -m venv ${VENV_DIR} && \
+     # Explicitly install a new enough version of pip
+     pip3 install pip==9.0.1 && \
+     pip3 install --no-cache-dir \
+          jupyter-rsession-proxy 
+
 ## Run an install.R script, if it exists.
-RUN if [ -f install.R ]; then R --quiet -f install.R; fi
+# RUN if [ -f install.R ]; then R --quiet -f install.R; fi
