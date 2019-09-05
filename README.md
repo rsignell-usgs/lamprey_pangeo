@@ -5,15 +5,15 @@ The example also highlights needs for approaches such as Pangeo to be more widel
 
 ## Pangeo Binder
 
-The easiest way to use this demo is to use the Pangeo Binder.
-To do so, click on this link:
+The easiest way to use this demo is to use the Pangeo Binder. 
+Note these links are for the R examples. 
 
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rerickson-usgs/lamprey_pangeo/master?filepath=Example_integrated_data_R.ipynb)
 
-**Note, the AWS pangeo binder does not work (bottom), but the mybinder.org (top) works:**
+This demo may also be run on [mybinder.org](mybinder.org).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rerickson-usgs/lamprey_pangeo/master?filepath=Example_integrated_data_R.ipynb)
 
-[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/rerickson-usgs/lamprey_pangeo/master?filepath=Example_integrated_data_R.ipynb)
 
 To run the files locally, see the next section. 
 
@@ -28,9 +28,7 @@ This repository contains the follow files:
 - `LICENCE.md`: A USGS standard license in a markdown file. 
 - `Example_integrated_data.ipynb`: The example Jupyter Notebook with Python code
 - `Example_integrated_data_R.ipynb`: The example Jupyter Notebook with R code. 
-- `environment-lamprey.yml`: A Conda Environment file.   
-- `.travis.yml`: Another environment file. 
-- `Dockerfile`: The Dockerfile for building the environment. 
+- `environment.yml`: A Conda Environment file.   
 
 To use the examples, open the example notebook and follow along and run the script.
 This example is also setup as a Binder. 
