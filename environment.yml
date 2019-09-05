@@ -10,3 +10,11 @@ dependencies:
     - sphinx-gallery
     - pandas
     - matplotlib
+    - plotnine
+    - statsmodels
+  - rpy2
+  - r-base=3.6.1
+  - r-rcpp
+  - r-tidyverse
+  - r-lme4
+  - r-irkernel
